@@ -52,6 +52,7 @@ const nextItem = computed(() => {
   </header>
 
   <main class="mt-2 grid h-full grid-cols-1 items-start gap-4 overflow-hidden md:grid-cols-2">
+    <!-- Left Panel -->
     <FallacyList :keyword="searchInput">
       <template #default="fallacy: TFallacy">
         <FallacyCard
@@ -61,6 +62,8 @@ const nextItem = computed(() => {
         />
       </template>
     </FallacyList>
+
+    <!-- Right Panel -->
     <Transition
       :duration="300"
       leaveToClass="opacity-0 !-bottom-full"
@@ -74,14 +77,14 @@ const nextItem = computed(() => {
         @deactivateFallacy="activeFallacy = null"
       >
         <template #control-button>
-          <div class="mt-4 mt-auto grid grid-cols-2 gap-2">
-            <UiButton @click="activeFallacy = prevItem">
+          <div class="grid grid-cols-2 gap-2" :class="!prevItem || !nextItem ? '!grid-cols-1' : ''">
+            <UiButton v-if="prevItem" @click="activeFallacy = prevItem">
               <template #prefix-icon>
                 <div class="i-carbon-arrow-left flex-shrink-0" />
               </template>
               {{ prevItem?.title }}
             </UiButton>
-            <UiButton class="justify-end" @click="activeFallacy = nextItem">
+            <UiButton v-if="nextItem" class="justify-end" @click="activeFallacy = nextItem">
               {{ nextItem?.title }}
               <template #suffix-icon>
                 <div class="i-carbon-arrow-right flex-shrink-0" />

@@ -11,7 +11,7 @@ const displayedUrl = computed(() => {
 </script>
 
 <template>
-  <div class="flex flex-col overflow-auto px-4 pb-4" :class="{ 'h-full': isFullScreen }">
+  <div class="flex flex-col overflow-auto px-4" :class="{ 'h-full': isFullScreen }">
     <div class="color-gray-600 sticky top-0 mb-4 flex items-center bg-white pt-4">
       <h2 class="mr-auto text-lg font-bold">{{ fallacy.title }}</h2>
       <div
@@ -40,11 +40,13 @@ const displayedUrl = computed(() => {
       <h4 class="mb-4 text-sm font-bold text-gray-500">Wikipedia Link</h4>
       <a
         :href="displayedUrl"
-        class="block overflow-hidden text-ellipsis border border-gray-100 p-4 text-gray-400 hover:bg-gray-50"
+        class="mb-4 block flex-shrink-0 overflow-hidden text-ellipsis border border-gray-100 p-4 text-gray-400 hover:bg-gray-50"
       >
         {{ displayedUrl }}
       </a>
     </template>
-    <slot name="control-button"></slot>
+    <div class="sticky bottom-0 mt-auto bg-white pb-4">
+      <slot name="control-button"></slot>
+    </div>
   </div>
 </template>
