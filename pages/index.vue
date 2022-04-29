@@ -1,21 +1,34 @@
 <script setup lang="ts">
-import { TFallacy } from '~~/composables/useFallacyData';
-const fallacies = useFallacyData();
-const searchInput = ref('');
-const activeFallacy = ref<TFallacy | null>(fallacies[0] || null);
+import { type TFallacy, getFallacyData } from '~~/composables/useFallacyData';
+import { useUrlSearchParams } from '@vueuse/core';
 
-const filteredFallacies = computed(() => {
-  console.log(searchInput.value);
-  return fallacies.filter((i) => i.title?.includes(searchInput.value) || i.title === activeFallacy.value?.title);
+const params = useUrlSearchParams<{ fallacy: string; search: string }>('hash-params');
+const fallacies = await getFallacyData();
+const searchInput = ref('');
+const activeFallacy = ref<TFallacy | null>();
+
+onMounted(() => {
+  searchInput.value = params.search || '';
+});
+
+watchEffect(() => {
+  params.search = searchInput.value;
+});
+
+onMounted(() => {
+  const fallacy = fallacies.find((f) => f.title === params.fallacy);
+  if (fallacy) activeFallacy.value = fallacy;
+  else activeFallacy.value = fallacies[0];
 });
 
 function activateFallacy(fallacy: TFallacy) {
   activeFallacy.value = fallacy;
+  params.fallacy = fallacy.title;
 }
 </script>
 
 <template>
-  <header class="p-2 pb-0 pr-0">
+  <header class="">
     <h1 class="text-2xl font-bold">谬误列表</h1>
     <div class="text-xs">
       <small class="text-gray-400">数据来源于 </small>
@@ -24,19 +37,21 @@ function activateFallacy(fallacy: TFallacy) {
     <UiInput class="mt-4" v-model="searchInput" placeholder="输入关键词搜索" />
   </header>
 
-  <main class="flex h-full flex-col overflow-hidden p-1">
-    <div class="grid h-full grid-cols-2 items-start gap-4">
-      <div class="flex h-full flex-col gap-4 overflow-auto p-2">
+  <main class="mt-2 grid h-full grid-cols-1 items-start gap-4 overflow-hidden md:grid-cols-2">
+    <FallacyList :keyword="searchInput">
+      <template v-slot="fallacy: TFallacy">
         <FallacyCard
-          v-for="fallacy in filteredFallacies"
           :isActive="activeFallacy?.title === fallacy.title"
           :fallacy="fallacy"
           @click="activateFallacy(fallacy)"
         />
-      </div>
-      <div>
-        <FallacyDescription :fallacy="activeFallacy" v-if="!!activeFallacy" />
-      </div>
-    </div>
+      </template>
+    </FallacyList>
+    <FallacyDescription
+      class="fixed bottom-0 left-0 right-0 h-1/2 border-t border-gray-300 bg-white p-4 shadow-xl md:static md:h-full md:border-0 md:p-0 md:shadow-none"
+      :fallacy="activeFallacy"
+      @deactivateFallacy="activeFallacy = null"
+      v-if="!!activeFallacy"
+    />
   </main>
 </template>

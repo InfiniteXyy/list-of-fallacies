@@ -5,7 +5,7 @@ defineProps<{ fallacy: TFallacy; isActive?: boolean }>();
 
 <template>
   <div
-    class="underline-gray-300 underline-2 cursor-pointer border border-white p-4 shadow transition hover:shadow-md"
+    class="underline-gray-300 underline-2 cursor-pointer border border-white border-b-gray-100 p-4 transition"
     :class="{ '!border-blue-600': isActive }"
   >
     <div class="mb-4 font-bold hover:underline">{{ fallacy.title }}</div>

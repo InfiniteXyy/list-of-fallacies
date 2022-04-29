@@ -1,5 +1,3 @@
-import FallacyData from '~~/assets/fallacies.demo.json';
-
 export type TFallacy = {
   type?: 'formal' | 'informal';
   title: string;
@@ -8,7 +6,9 @@ export type TFallacy = {
   htmlUrl?: string;
 };
 
-export const useFallacyData = (): TFallacy[] => {
+export async function getFallacyData(): Promise<TFallacy[]> {
+  const FallacyData = (await import('~~/assets/fallacies.demo.json')).default;
+
   return [
     {
       title: '稻草人论证 Demo',
@@ -23,6 +23,6 @@ export const useFallacyData = (): TFallacy[] => {
       ],
       type: 'informal',
     },
-    ...FallacyData as TFallacy[],
+    ...(FallacyData as TFallacy[]),
   ];
-};
+}

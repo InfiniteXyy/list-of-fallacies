@@ -10,7 +10,7 @@ useHead({
 </script>
 
 <template>
-  <div class="mx-auto flex h-full w-[900px] max-w-full flex-col py-10 px-5">
+  <div class="mx-auto flex h-full w-[1400px] max-w-full flex-col py-10 px-5">
     <NuxtPage />
   </div>
 </template>

@@ -1,5 +1,5 @@
-import { defineConfig, presetIcons, presetUno } from "unocss";
+import { defineConfig, presetIcons, presetUno, presetAttributify } from 'unocss';
 
 export default defineConfig({
-  presets: [presetUno({ dark: "class" }), presetIcons()],
+  presets: [presetUno({ dark: 'class' }), presetIcons()],
 });

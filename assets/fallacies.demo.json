@@ -30,10 +30,6 @@
     "description": "命题逻辑的推理错误：“若P则Q”为真，推得“若非P则非Q”为真。"
   },
   {
-    "title": "量化词逻辑谬误",
-    "description": "谓词逻辑是对命题逻辑的扩充，主要引入了量化词运算子“对于所有的”（\\n{\\\\displaystyle \\\\forall }\\n）、“存在”（\\n{\\\\displaystyle \\\\exists }\\n）。误用量化词相关运算规则即构成量化词逻辑谬误。"
-  },
-  {
     "htmlUrl": "https://zh.wikipedia.org/wiki/%E7%84%A1%E7%AB%AF%E5%B0%8D%E7%AB%8B",
     "title": "无端对立或有些是有些不是",
     "description": "传统逻辑的推理错误，把特称肯定句与特称否定句互转。例如从“有些S是P”推得“有些S不是P”。像例如“有些P问题是NP问题，因此，有些P问题不是NP问题。”"
