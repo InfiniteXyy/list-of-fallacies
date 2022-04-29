@@ -3,22 +3,30 @@ import { TFallacy } from '~~/composables/useFallacyData';
 const props = defineProps<{ fallacy: TFallacy }>();
 defineEmits<{ (e: 'deactivateFallacy'): void }>();
 
+const isFullScreen = ref(false);
+
 const displayedUrl = computed(() => {
   return decodeURIComponent(props.fallacy.htmlUrl || '');
 });
 </script>
 
 <template>
-  <div class="overflow-auto px-4 md:p-0">
-    <div class="sticky top-0 mb-4 flex items-center justify-between bg-white pt-4">
-      <h2 class="text-lg font-bold">{{ fallacy.title }}</h2>
-      <div class="i-carbon-close cursor-pointer text-3xl md:hidden" @click="$emit('deactivateFallacy')" />
+  <div class="flex flex-col overflow-auto px-4 pb-4" :class="{ 'h-full': isFullScreen }">
+    <div class="color-gray-600 sticky top-0 mb-4 flex items-center bg-white pt-4">
+      <h2 class="mr-auto text-lg font-bold">{{ fallacy.title }}</h2>
+      <div
+        :class="!isFullScreen ? 'i-mdi-fullscreen ' : 'i-mdi-fullscreen-exit '"
+        class="cursor-pointer text-3xl md:hidden"
+        @click="isFullScreen = !isFullScreen"
+      />
+      <div class="i-carbon-close ml-2 cursor-pointer text-3xl md:hidden" @click="$emit('deactivateFallacy')" />
     </div>
-    <div v-if="!fallacy.examples?.length" class="flex flex-col items-center justify-center pb-10">
+    <div class="text-sm">{{ fallacy.description }}</div>
+    <div v-if="!fallacy.examples?.length" class="my-5 flex flex-col items-center justify-center">
       <div class="mb-4 text-gray-300">暂无示例</div>
-      <div class="i-carbon-tropical-warning text-8xl text-gray-300" />
+      <div class="i-carbon-tropical-warning text-5xl text-gray-300 md:text-8xl" />
     </div>
-    <div v-else>
+    <div v-else class="mt-4">
       <h4 class="mb-4 text-sm font-bold text-gray-500">示例</h4>
       <div
         v-for="(example, index) in fallacy.examples || []"
@@ -37,5 +45,6 @@ const displayedUrl = computed(() => {
         {{ displayedUrl }}
       </a>
     </template>
+    <slot name="control-button"></slot>
   </div>
 </template>

@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { type TFallacy, getFallacyData } from '~~/composables/useFallacyData';
 import { useUrlSearchParams, useMediaQuery } from '@vueuse/core';
-import { Console } from 'console';
 
 const params = useUrlSearchParams<{ fallacy: string; search: string }>('hash-params');
 const isMobileView = useMediaQuery('(max-width: 768px)');
@@ -28,6 +27,18 @@ watch(
   () => activeFallacy.value?.title,
   (value) => (params.fallacy = value || '')
 );
+
+const currentIndex = computed(() => {
+  return fallacies.findIndex((f) => f.title === activeFallacy.value?.title);
+});
+
+const prevItem = computed(() => {
+  return currentIndex.value > 0 ? fallacies[currentIndex.value - 1] : null;
+});
+
+const nextItem = computed(() => {
+  return currentIndex.value < fallacies.length - 1 ? fallacies[currentIndex.value + 1] : null;
+});
 </script>
 
 <template>
@@ -61,7 +72,24 @@ watch(
         class="fixed bottom-0 left-0 right-0 h-1/2 border-t border-gray-300 bg-white shadow-xl md:static md:h-full md:border-0 md:shadow-none"
         :fallacy="activeFallacy"
         @deactivateFallacy="activeFallacy = null"
-      />
+      >
+        <template #control-button>
+          <div class="mt-4 mt-auto grid grid-cols-2 gap-2">
+            <UiButton @click="activeFallacy = prevItem">
+              <template #prefix-icon>
+                <div class="i-carbon-arrow-left flex-shrink-0" />
+              </template>
+              {{ prevItem?.title }}
+            </UiButton>
+            <UiButton class="justify-end" @click="activeFallacy = nextItem">
+              {{ nextItem?.title }}
+              <template #suffix-icon>
+                <div class="i-carbon-arrow-right flex-shrink-0" />
+              </template>
+            </UiButton>
+          </div>
+        </template>
+      </FallacyDescription>
     </Transition>
   </main>
 </template>
