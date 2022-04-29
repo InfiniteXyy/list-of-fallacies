@@ -1,0 +1,907 @@
+[
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%82%AF%E5%AE%9A%E5%BE%8C%E4%BB%B6",
+    "title": "肯定后件",
+    "description": "命题逻辑的推理错误：“若P则Q”为真，且Q为真，推得P为真。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%90%A6%E5%AE%9A%E5%89%8D%E4%BB%B6",
+    "title": "否定前件",
+    "description": "命题逻辑的推理错误：“若P则Q”为真，且P为假，推得Q为假。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%82%AF%E5%AE%9A%E9%81%B8%E8%A8%80",
+    "title": "肯定选言",
+    "description": "命题逻辑的推理错误：“P或Q”为真，且P（或Q）为真，推得Q（或P）为假。像例如说“死刑有助治安，或者能让民众感到正义伸张。死刑能让民众感到正义伸张，因此死刑无助治安。”"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%90%A6%E5%AE%9A%E8%81%AF%E8%A8%80",
+    "title": "否定联言",
+    "description": "命题逻辑的推理错误：“P且Q”不为真，且P（或Q）不为真，推得Q（或P）为真。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E6%8F%9B%E4%BD%8D%E4%B8%8D%E6%8F%9B%E8%B3%AA",
+    "title": "换位不换质或条件式转向",
+    "description": "命题逻辑的推理错误：“若P则Q”为真，推得“若Q则P”为真。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E6%8F%9B%E8%B3%AA%E4%B8%8D%E6%8F%9B%E4%BD%8D",
+    "title": "换质不换位或不当的换质换位",
+    "description": "命题逻辑的推理错误：“若P则Q”为真，推得“若非P则非Q”为真。"
+  },
+  {
+    "title": "量化词逻辑谬误",
+    "description": "谓词逻辑是对命题逻辑的扩充，主要引入了量化词运算子“对于所有的”（\\n{\\\\displaystyle \\\\forall }\\n）、“存在”（\\n{\\\\displaystyle \\\\exists }\\n）。误用量化词相关运算规则即构成量化词逻辑谬误。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E7%84%A1%E7%AB%AF%E5%B0%8D%E7%AB%8B",
+    "title": "无端对立或有些是有些不是",
+    "description": "传统逻辑的推理错误，把特称肯定句与特称否定句互转。例如从“有些S是P”推得“有些S不是P”。像例如“有些P问题是NP问题，因此，有些P问题不是NP问题。”"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E9%9D%9E%E6%B3%95%E6%8F%9B%E4%BD%8D",
+    "title": "非法换位",
+    "description": "传统逻辑的推理错误，把全称肯定句或特称否定句换位。例如从“所有S都是P”推得“所有P都是S”。像例如“任何P问题都是NP问题，因此，任何NP问题都是P问题。”"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E4%B8%8D%E7%95%B6%E6%8F%9B%E8%B3%AA%E6%8F%9B%E4%BD%8D",
+    "title": "不当换质换位",
+    "description": "传统逻辑的推理错误，把全称否定句或特称肯定句换质换位。例如从“没有S是P”推得“没有非P是非S”。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%AD%98%E5%9C%A8%E6%80%A7%E8%AC%AC%E8%AA%A4",
+    "title": "存在性谬误",
+    "description": "不当假定推论中提及的集合非空，即从“对于所有的X”推理出“存在X”。例如从“独角兽只有一只角”推得“有些独角兽只有一只角”。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E9%87%8F%E5%8C%96%E8%A9%9E%E5%B0%8D%E8%AA%BF",
+    "title": "量化词对调",
+    "description": "谓词逻辑的推理错误，不当把“对于所有的…存在…”对调为“存在…对于所有的…”。"
+  },
+  {
+    "title": "三段论逻辑谬误",
+    "description": "定言三段论是传统逻辑系统的一部分，主要处理由两个前提推理出结论的推理规则。违反这些规则即构成三段论逻辑谬误。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E8%A9%9E%E4%B8%8D%E7%95%B6",
+    "title": "大词不当",
+    "description": "三段论逻辑的推理错误，大词在结论中周延，却在前提中不周延。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E8%A9%9E%E4%B8%8D%E7%95%B6",
+    "title": "小词不当",
+    "description": "三段论逻辑的推理错误，小词在结论中周延，却在前提中不周延。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%A9%9E%E4%B8%8D%E5%91%A8%E5%BB%B6",
+    "title": "中词不周延",
+    "description": "三段论逻辑的推理错误，中词在两个前提中都不周延。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%82%AF%E5%AE%9A%E5%89%8D%E6%8F%90%E6%8E%A8%E5%BE%97%E5%90%A6%E5%AE%9A%E7%B5%90%E8%AB%96",
+    "title": "肯定前提推得否定结论",
+    "description": "三段论逻辑的推理错误，二前提皆为肯定，结论却为否定。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%90%A6%E5%AE%9A%E5%89%8D%E6%8F%90%E6%8E%A8%E5%BE%97%E8%82%AF%E5%AE%9A%E7%B5%90%E8%AB%96",
+    "title": "否定前提推得肯定结论",
+    "description": "三段论逻辑的推理错误，一前提为否定，结论却为肯定。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E4%BA%92%E6%96%A5%E5%89%8D%E6%8F%90",
+    "title": "互斥前提",
+    "description": "三段论逻辑的推理错误，二前提皆为否定。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%9B%9B%E8%A9%9E%E8%AC%AC%E8%AA%A4",
+    "title": "四词谬误",
+    "description": "三段论逻辑的推理错误，因歧义等因素，造成实际上有四个词，而非三个词。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%A9%9E%E5%90%AB%E7%B3%8A%E8%AC%AC%E8%AA%A4",
+    "title": "中词含糊谬误",
+    "description": "三段论逻辑的推理错误，因中词含糊不清，造成逻辑不连贯。为四词谬误的一种。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E7%88%9B%E7%90%86%E7%94%B1%E8%AC%AC%E8%AA%A4",
+    "title": "烂理由谬误",
+    "description": "基于某论证不健全推得其结论为假。形式上为“若P则Q；P为假；故Q为假”或“若P则Q为假；故Q为假”。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%AC%AC%E8%AA%A4%E8%AC%AC%E8%AA%A4",
+    "title": "谬误谬误",
+    "description": "基于某论证无效推得其结论为假。形式上为“若P则Q为假；故Q为假”。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%92%99%E9%9D%A2%E4%BA%BA%E8%AC%AC%E8%AA%A4",
+    "title": "蒙面人谬误",
+    "description": "对内涵性语句不当使用代换原则。例如“小美相信超人会飞；超人是克拉克肯特；因此，小美相信克拉克肯特会飞”。"
+  },
+  {},
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%80%E8%A9%9E%E8%AC%AC%E8%AA%A4",
+    "title": "言词谬误",
+    "description": "泛指各种因语意混乱造成的不恰当推理，可大致分为模糊、歧义、废话三类。"
+  },
+  {
+    "title": "模糊谬误",
+    "description": "模糊是语义笼统，无法明确解读成特定意思的现象。因语义模糊造成的错误推理即为模糊谬误。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%8A%83%E7%95%8C%E8%AC%AC%E8%AA%A4",
+    "title": "划界谬误或连续体谬误",
+    "description": "主张由于一个概念或两个彼此对立的概念没有明确的界限，因此不应区分。例如秃和不秃没有区别、冷与热没有界线、超速不可能有标准等等。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E6%B4%9B%E5%9F%BA%E7%9A%84%E8%B3%AD%E6%B3%A8",
+    "title": "洛基的赌注",
+    "description": "主张某个概念无法明确定义，因而问题无法讨论。是划界谬误的一例。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%81%87%E7%B2%BE%E7%A2%BA",
+    "title": "假精确或过度精确",
+    "description": "把估计值当做精确数值，忽略误差。例如去年听说中国文化有4000年历史，今年便说中国文化有4001年历史。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%85%B7%E9%AB%94%E5%8C%96%E8%AC%AC%E8%AA%A4",
+    "title": "具体化谬误",
+    "description": "把抽象概念当具体概念使用，以譬喻、转化等修辞方式论述，令人难以理解实际意思。例如“国家喜欢你”。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E6%AD%A7%E7%BE%A9%E8%AC%AC%E8%AA%A4",
+    "title": "歧义谬误",
+    "description": "歧义是字词或语句可理解为多种意思的现象，因歧义造成的不当推理即是歧义谬误，其中一种是误解他人语义造成错误推理；另一种是在论述时某些相同或近似语句意思有变化，造成逻辑不连贯。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E6%AD%A7%E7%BE%A9%E8%AC%AC%E8%AA%A4#%E4%B8%80%E8%A9%9E%E5%A4%9A%E7%BE%A9",
+    "title": "一词多义",
+    "description": "因字词有多种解读造成的混淆与错误推理。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E6%AD%A7%E7%BE%A9%E8%AC%AC%E8%AA%A4#%E6%AD%A7%E7%BE%A9%E5%8F%A5%E6%A7%8B",
+    "title": "歧义句构",
+    "description": "因句子按文法有多种理解方式造成的混淆与错误推理。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%BD%84%E5%9F%9F%E8%AC%AC%E8%AA%A4",
+    "title": "辖域谬误",
+    "description": "辖域是逻辑学上各种逻辑算子的作用范围，语句因歧义句构造成的误会或不当推理，往往可藉形式化分析出辖域上的混淆。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E6%AD%A7%E7%BE%A9%E8%AC%AC%E8%AA%A4#%E5%8A%A0%E9%87%8D%E8%AA%9E%E6%B0%A3",
+    "title": "加重语气",
+    "description": "因口语抑扬顿挫不同造成的混淆与错误推理。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%AA%9E%E5%A2%83%E5%8E%BB%E9%99%A4",
+    "title": "语境去除、脱离语境的引用、引言探勘",
+    "description": "引用某人的说词作为论证理据，却忽略了语境，扭曲了原来的意思。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E6%96%B7%E7%AB%A0%E5%8F%96%E7%BE%A9",
+    "title": "断章取义",
+    "description": "引用某人的说词作为论证理据，却不当删除了上下文，扭曲了原来的意思。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E6%A6%82%E5%BF%B5%E6%BB%91%E8%BD%89",
+    "title": "概念滑转、概念混淆、概念扭曲",
+    "description": "概念滑转是字词意义不同造成的错误推理。其中若字词本来便可理解为多种意思，称作概念混淆；若将字词以违反一般用法或正确用法的方式使用，则是概念扭曲。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%81%B7%E6%8F%9B%E6%A6%82%E5%BF%B5",
+    "title": "偷换概念",
+    "description": "蓄意把谈论中的某些关键词换成其他概念。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E6%8C%AA%E5%8B%95%E9%96%80%E6%9F%B1",
+    "title": "挪动门柱",
+    "description": "改变达成目标的准则。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%AE%9A%E7%BE%A9%E8%AC%AC%E8%AA%A4",
+    "title": "定义谬误",
+    "description": "泛指各种因定义不当造成的推理问题。如篡改定义、循环定义。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%AE%9A%E7%BE%A9%E5%AE%B6%E8%AC%AC%E8%AA%A4",
+    "title": "定义家谬误",
+    "description": "论证时对相关词语不当定义，有三种用法：其一是把某特质定义为另一个词语，其二是坚持使用说服性的定义，其三是坚持在使用词语前一定要先定义。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E4%BF%AE%E6%94%B9%E5%AE%9A%E7%BE%A9",
+    "title": "修改定义",
+    "description": "不当改变关键词定义造成误导。一种是赋予关键词不恰当的词法定义；一种是使用约定定义论述，却不说明，使他人误以为谈的是该词语的一般意义。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E6%B2%92%E6%9C%89%E7%9C%9F%E6%AD%A3%E7%9A%84%E8%98%87%E6%A0%BC%E8%98%AD%E4%BA%BA",
+    "title": "没有真正的苏格兰人或诉诸纯洁",
+    "description": "提出虚假的一般化主张，如“真正的Ｘ”如何如何，然而所谓“真正的”纯粹是用于排除Ｘ之中的反例。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%BB%A2%E8%A9%B1%E8%AC%AC%E8%AA%A4",
+    "title": "废话谬误",
+    "description": "论证或主张看似有意义，实质上却空洞无内容或对主题毫无助益。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E7%91%A3%E7%A2%8E%E7%9C%9F%E7%90%86",
+    "title": "琐碎真理",
+    "description": "正确却对主题毫无助益的资讯。"
+  },
+  {
+    "title": "无意义的问题",
+    "description": "对认知或争议主题毫无助益的发问。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%BB%A2%E8%A9%B1%E8%AC%AC%E8%AA%A4#%E5%A5%97%E5%A5%97%E9%82%8F%E8%BC%AF",
+    "title": "套套逻辑、恒真句式、分析语句",
+    "description": "把论述中关键词的意义换成自订定义，使原论述语义上恒真，却空洞无内容。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%9B%9E%E9%A1%A7%E6%80%A7%E5%AE%BF%E5%91%BD%E8%AB%96",
+    "title": "回顾性宿命论",
+    "description": "在某事发生后，主张某事是注定会发生。然而如果不能在某事发生前预测某事是否将会发生，所谓“注定会发生”是空洞无意义的。例如宣称“从既有的证据来看，二战是注定发生的，就算希特勒当时死了，德国也迟早会侵略波兰的”"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%AF%A6%E8%B3%AA%E8%AC%AC%E8%AA%A4",
+    "title": "实质谬误或素材谬误",
+    "description": "非属言词谬误的非形式谬误，包括不一致、不相干、不当预设等多种前提不真确或前提无法无法推得结论的情形。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E4%B8%8D%E4%B8%80%E8%87%B4%E7%9A%84%E8%AC%AC%E8%AA%A4",
+    "title": "不一致的谬误",
+    "description": "提出的主张或论证前提自我冲突或自我推翻，不可能成立。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%87%AA%E6%88%91%E8%A1%9D%E7%AA%81",
+    "title": "自我冲突或自我矛盾",
+    "description": "提出的多个主张或论证前提无法同时为真。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E7%A0%B4%E9%87%9C%E9%82%8F%E8%BC%AF",
+    "title": "破釜逻辑",
+    "description": "提出多个理由防卫某论点，但这些理由无法同时为真。例如某人被指控拿房间里的一百元，先是说他没进过房间，后来又说他进房间时没看到钱。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E7%9F%9B%E7%9B%BE%E7%9A%84%E5%89%8D%E6%8F%90",
+    "title": "矛盾的前提",
+    "description": "论证的多个前提无法同时为真。此时论证的结论是不可接受的，必须拒绝至少一个前提。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%87%AA%E6%88%91%E6%8E%A8%E7%BF%BB",
+    "title": "自我推翻",
+    "description": "论述者的行为或相关情境证明了论述不可能成立。例如某人用汉语说“我一句汉语都不会说”。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E6%8E%A8%E8%AB%96%E5%A4%B1%E6%95%88",
+    "title": "推论失效、推不出",
+    "description": "泛指各种前提无法推理出结论的情况，包括不相干的谬误与不充分的谬误。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E4%B8%8D%E7%9B%B8%E5%B9%B2%E7%9A%84%E8%AC%AC%E8%AA%A4",
+    "title": "不相干的谬误或分散注意力的谬误",
+    "description": "提出与争议主题无关的论述。较广义的用法包括两种方式：一是论证的前提和结论缺乏逻辑关联（伪冒理据），二是提出与争议主题没有逻辑关联的主张或论证（伪冒论题）；较狭义的用法只包括伪冒理据。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E6%AD%AA%E6%9B%B2%E8%AB%96%E9%A1%8C",
+    "title": "伪冒论题或歪曲论题",
+    "description": "提出与争议主题没有逻辑关联的主张或论证。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E7%A8%BB%E8%8D%89%E4%BA%BA%E8%AB%96%E8%AD%89",
+    "title": "稻草人论证",
+    "description": "攻击对方并未提出的论点。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E7%B4%85%E9%AF%A1%E9%AD%9A",
+    "title": "红鲱鱼",
+    "description": "制造其他议题，以转移他人对原议题的注意力。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E7%B4%85%E9%AF%A1%E9%AD%9A",
+    "title": "烟雾弹或烟幕",
+    "description": "引入细节把议题弄得复杂，令他人无法注意该注意的重点。。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E4%B8%8D%E7%9B%B8%E5%B9%B2%E7%9A%84%E7%B5%90%E8%AB%96",
+    "title": "伪冒理据或不相干的结论",
+    "description": "论证的前提和结论缺乏逻辑关联（往往乍看有关联）。换言之，无论前提是对是错，结论的真确性都不受影响。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%B5%B7%E6%BA%90%E8%AC%AC%E8%AA%A4",
+    "title": "起源谬误",
+    "description": "攻击论证的来源，比如提出论证的人或其出身背景、或论证前提的资讯来源等等，但这些攻击无法连结到论证本身的有效性。例如诉诸人身、诉诸词源。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%81%87%E8%B3%87%E8%A8%8A%E4%BE%86%E6%BA%90",
+    "title": "假资讯来源",
+    "description": "根据不恰当的资讯来源提出主张，比如不相关的、品质低劣的、提出者身份不明的、偏颇的、或伪造的资讯来源。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/w/index.php?title=%E9%BB%83%E9%BC%A0%E7%8B%BC%E7%9A%84%E8%A9%B1&action=edit&redhtmlUrl=1",
+    "title": "黄鼠狼的话或匿名权威",
+    "description": "主张某专家支持某事，因此某事是对的，但该“专家”身份不明，因而令人怀疑。是假资讯来源的一种。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E6%AC%8A%E5%A8%81",
+    "title": "诉诸权威",
+    "description": "主张某专家支持某事，因此某事是对的，但该专家说法的可靠性令人怀疑，例如：并非相关领域的专家，该专家在开玩笑，该专家只是谈个人看法，专业社群对该专家的说法意见分歧，该“专家”身份不明……等等。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E5%90%8D%E4%BA%BA",
+    "title": "诉诸名人",
+    "description": "主张某名人支持某事，因此某事是对的。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E7%BE%A4%E7%9C%BE",
+    "title": "诉诸群众",
+    "description": "主张很多人支持某事，因此某事是对的。"
+  },
+  {
+    "title": "全知论证",
+    "description": "主张所有人都知道、都同意某事等等。但人不可能全知，这说法多半是不可信的。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E4%BA%BA%E8%BA%AB",
+    "title": "诉诸人身、对人不对事、或以人废言",
+    "description": "宣称某人有某些个人特质，以明示或暗示其主张可取或不可取。这些个人特质可以是人格、动机、态度、地位、阶级或处境等等。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E6%89%A3%E5%B8%BD%E5%AD%90",
+    "title": "扣帽子、贴标签或井里下毒",
+    "description": "把某些负面特质强加至他人身上，以明示或暗示其主张不可取。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E4%BA%BA%E8%BA%AB%E6%94%BB%E6%93%8A",
+    "title": "人身攻击",
+    "description": "宣称某人有某些负面特质，以明示或暗示其主张不可取。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E7%A9%A2%E8%A8%80%E8%AC%AC%E8%AA%A4",
+    "title": "秽言谬误",
+    "description": "用不雅的言语攻击他人，以明示或暗示其主张不可取。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E5%8B%95%E6%A9%9F",
+    "title": "诉诸动机",
+    "description": "宣称某人主张某事背后有某些动机，以明示或暗示其主张可取或不可取。"
+  },
+  {
+    "title": "作风盖过实质",
+    "description": "宣称某人的向来作风如何，因此他一定会如何。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E4%BD%A0%E4%B9%9F%E4%B8%80%E6%A8%A3",
+    "title": "你也一样、诉诸虚伪、或诉诸伪善",
+    "description": "宣称某人反对某事，但他自己也做了某事，因此其反对是虚假伪善的、某事并没有错。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E9%97%9C%E8%81%AF%E8%AC%AC%E8%AA%A4",
+    "title": "关联谬误",
+    "description": "将某主张与有特定形象（包括正面和负面的形象）的个人或团体连结，以明示或暗示该主张可取或不可取。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E7%BD%AA%E6%83%A1%E9%97%9C%E8%81%AF",
+    "title": "罪恶关联",
+    "description": "将某主张与形象不好的个人或团体连结，以明示或暗示该主张可取或不可取。有二种常见形式：其一是宣称形象不好的某人或某团体也支持某主张，因此某主张是错的；其二是指控支持某主张的人都归属于某个形象不好的团体。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%B8%8C%E7%89%B9%E5%8B%92%E6%AD%B8%E8%AC%AC%E6%B3%95",
+    "title": "希特勒归谬法或发希特勒卡",
+    "description": "宣称形象不好的某人或某团体也支持某主张，因此某主张是错的。一般专指希特勒被用于比较的时候。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E5%A5%BD%E4%BA%BA",
+    "title": "诉诸好人",
+    "description": "宣称某人有某些正面特质，以明示或暗示其主张可取。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E6%88%90%E5%B0%B1",
+    "title": "诉诸成就",
+    "description": "宣称某人或某人的团队没有相应的成就，因而其主张不可取。例如宣称某人不会开车，因此没资格批评他人开车太危险。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E5%AF%8C%E8%B2%B4",
+    "title": "诉诸富贵",
+    "description": "宣称某人有财富、有地位，因而其主张可取；或某人没财富、没地位，因而其主张不可取。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E8%B2%A7%E8%B3%A4",
+    "title": "诉诸贫贱",
+    "description": "宣称某人没财富、没地位，因而他是正直善良的，其主张可取；或某人有财富、有地位，因而他是邪恶狡诈的，其主张不可取。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E6%99%BA%E8%83%BD",
+    "title": "诉诸智能",
+    "description": "宣称某人智能不足、心智状态不稳定等，因而其主张不可取。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A9%9E%E6%BA%90%E8%AC%AC%E8%AA%A4",
+    "title": "词源谬误",
+    "description": "宣称某个字词在历史上有某种意义，因而现在它一定有某种意义。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E6%A0%BC%E8%A8%80%E8%AB%96%E8%AD%89",
+    "title": "格言论证",
+    "description": "用格言、俗谚或民间智慧证成主张，却未考虑其背后理据与适用情境。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%B9%B4%E4%BB%A3%E5%8B%A2%E5%88%A9",
+    "title": "诉诸年代或年代势利",
+    "description": "宣称某观念或事物起于较早的年代，因此不如现今的好。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E6%96%B0%E6%BD%AE",
+    "title": "诉诸新潮",
+    "description": "宣称某观念或事物最新、最符合时代潮流，因此是好的。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E5%82%B3%E7%B5%B1",
+    "title": "诉诸传统",
+    "description": "宣称某观念或事物行之已久，因此是好的。"
+  },
+  {
+    "title": "诉诸信心",
+    "description": "宣称对方必须先相信一件事是真的，才能找到支持这件事的证据。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E9%9D%9E%E6%88%91%E6%89%80%E5%89%B5",
+    "title": "非我所创",
+    "description": "宣称某观念或事物不是自己人创造的，因此是不好的。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E6%98%AF%E6%88%91%E6%89%80%E5%89%B5",
+    "title": "是我所创",
+    "description": "宣称某观念或事物是自己人创造的，因此是好的。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E6%83%85%E6%84%9F",
+    "title": "诉诸情感",
+    "description": "激起他人的情感，以诱导他们支持自己的主张。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E6%81%90%E6%87%BC",
+    "title": "诉诸恐惧",
+    "description": "激起他人对某事物的恐惧，以诱导他们反对某事物。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E5%8E%AD%E6%83%A1",
+    "title": "诉诸厌恶",
+    "description": "激起他人对某事物的恶心、厌恶感，以诱导他们不支持某事物。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E4%BB%87%E6%81%A8",
+    "title": "诉诸仇恨",
+    "description": "激起他人对某事物的仇恨，以诱导他们不支持某事物。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E8%AB%82%E5%AA%9A",
+    "title": "诉诸谄媚",
+    "description": "奉承、谄媚他人，以诱导他们支持自己。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E6%86%90%E6%86%AB",
+    "title": "诉诸怜悯、诉诸同情、诉诸愧疚",
+    "description": "激起他人对自己同情或愧疚，以诱导他们支持自己。"
+  },
+  {
+    "title": "诉诸可爱",
+    "description": "使用可爱、纯真、讨人喜欢的人事物，以诱导他人支持某些想法。"
+  },
+  {
+    "title": "诉诸性感",
+    "description": "使用性感的人事物，以诱导他人支持某些想法。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E6%99%82%E9%AB%A6%E8%A1%93%E8%AA%9E",
+    "title": "时髦术语",
+    "description": "使用新奇、有趣、时髦的词语，以诱导他人支持某些想法。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E8%8D%92%E8%AC%AC",
+    "title": "诉诸荒谬或诉诸嘲弄",
+    "description": "嘲笑某事物，宣称其荒谬可笑，以诱导他人不支持某事物。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E8%87%AA%E7%84%B6",
+    "title": "诉诸自然",
+    "description": "宣称某事物符合自然天性，因此是好的；或某事物不符合自然天性，因此是不好的。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E5%BE%8C%E6%9E%9C",
+    "title": "诉诸后果",
+    "description": "根据一命题导致的后果决定它是真是假。"
+  },
+  {
+    "title": "诉诸不良后果",
+    "description": "由于一命题会导致不欲的后果，因此不相信它是真的。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E6%AD%A6%E5%8A%9B",
+    "title": "诉诸武力、诉诸恐吓或恐吓论据",
+    "description": "威胁如果对方支持某事，就要惩罚他，以明示或暗示对方不该支持某事。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E4%B8%80%E5%BB%82%E6%83%85%E9%A1%98",
+    "title": "一厢情愿",
+    "description": "由于自己希望某事发生，因此主张（或相信）某事是真的；或由于自己不希望某事发生，因此主张（或相信）某事是假的。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E7%84%A1%E7%9F%A5",
+    "title": "诉诸无知",
+    "description": "宣称由于某事未被证明为假，因此是真的；或由于某事未被证明为真，因此是假的。”"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E9%9B%A3%E4%BB%A5%E7%BD%AE%E4%BF%A1",
+    "title": "诉诸难以置信",
+    "description": "宣称由于自己难以想像某事为真的情况，因此某事是假的。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E8%87%AA%E6%88%91%E7%9F%A5%E8%AD%98",
+    "title": "诉诸自我知识",
+    "description": "宣称由于自己不知道某事，因此某事是假的。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E9%BB%98%E8%AD%89",
+    "title": "默证",
+    "description": "宣称由于支持某事的人未提供证据，因此某事不是真的。默证常用于历史研究，主张某人（或某时代）的著作（或文献）未提及某观念，因而某人（或某时代）无某观念。"
+  },
+  {
+    "title": "证明不存在",
+    "description": "要求对方证明某事物不存在，否则就得承认某事物存在。[1]"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%88%89%E8%AD%89%E8%B2%AC%E4%BB%BB_(%E5%93%B2%E5%AD%B8)",
+    "title": "转移举证责任",
+    "description": "不为自己的论点提出理由，而要求质疑的人提出理由证明自己的论点是错的。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E4%B8%AD%E5%BA%B8",
+    "title": "诉诸中庸",
+    "description": "宣称多个冲突主张的折衷就是最佳解。然而，许多时候折衷的选择会更不切实际、更不可取。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E7%A9%8D%E9%9D%9E%E6%88%90%E6%98%AF",
+    "title": "积非成是",
+    "description": "主张他人也犯了错，因此自己没错。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E8%A8%80%E8%AB%96%E8%87%AA%E7%94%B1",
+    "title": "我有权发表意见或诉诸言论自由",
+    "description": "说法被质疑时，主张自己有权发表意见或有言论自由。像例如在全球暖化否定说被专家推翻时，反对全球暖化现象存在的人声称“学术界打压我们的言论自由！”"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E4%B8%8D%E5%85%85%E5%88%86%E7%9A%84%E8%AC%AC%E8%AA%A4",
+    "title": "不充分的谬误",
+    "description": "前提虽与结论有关，但不足以充分支持结论。换言之，即使前提是对的，也不能完全确定或足够确定结论是对的。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/w/index.php?title=%E5%88%86%E5%B8%83%E8%AC%AC%E8%AA%A4&action=edit&redhtmlUrl=1",
+    "title": "分布谬误",
+    "description": "认为个体和整体有相同的特质。可分为合成谬误与分割谬误。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%90%88%E6%88%90_(%E8%AC%AC%E8%AA%A4)",
+    "title": "合成谬误",
+    "description": "认为个体的特质就是整体的特质。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%88%86%E5%89%B2%E8%AC%AC%E8%AA%A4",
+    "title": "分割谬误",
+    "description": "认为整体的特质就是个体的特质。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E6%BC%94%E7%B9%B9%E6%80%A7%E8%AC%AC%E8%AA%A4",
+    "title": "演绎性谬误",
+    "description": "泛指各种不恰当的演绎推理。例如笼统概括与各种形式谬误。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E7%B0%A1%E5%8C%96%E6%8E%A8%E8%AB%96",
+    "title": "简化推论、简单地说、笼统概括",
+    "description": "认为通则不能容许任何例外。可分为偶例谬误与逆偶例谬误。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%81%B6%E4%BE%8B%E8%AC%AC%E8%AA%A4",
+    "title": "偶例谬误或例外谬误",
+    "description": "“通则凌驾例外”，基于通则否定例外的正当性。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E9%80%86%E5%81%B6%E4%BE%8B%E8%AC%AC%E8%AA%A4",
+    "title": "逆偶例谬误或反例外谬误",
+    "description": "“例外凌驾通则”，基于例外否定通则的正当性。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/w/index.php?title=%E6%AD%B8%E7%B4%8D%E6%80%A7%E8%AC%AC%E8%AA%A4&action=edit&redhtmlUrl=1",
+    "title": "归纳性谬误",
+    "description": "泛指各种不正确的归纳推理。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%8D%89%E7%8E%87%E6%AD%B8%E7%B4%8D",
+    "title": "错误概括、不当概括、草率归纳",
+    "description": "根据不够充足或不够具代表性的样本，归纳出一般性的结论。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%81%8F%E5%B7%AE%E6%A8%A3%E6%9C%AC",
+    "title": "偏差样本或不具代表性的样本",
+    "description": "根据缺乏代表性的样本归纳出一般性的结论。如样本数太小、样本并非随机选取等等。像例如只根据一个或少数几个国家废除死刑后谋杀犯罪率下降或不变的数据，就论证说死刑无助治安。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%81%8F%E5%B7%AE%E7%B5%B1%E8%A8%88",
+    "title": "偏差统计",
+    "description": "根据不恰当的统计方法推论出一般性的结论。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%96%AE%E6%96%B9%E8%AB%96%E8%AD%89",
+    "title": "单方论证",
+    "description": "刻意挑选支持论点的资料呈现，不支持论点的资料则忽略不计。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%BB%BC%E4%BA%8B%E8%AD%89%E6%93%9A",
+    "title": "轶事证据",
+    "description": "根据传闻、故事等少数个例推理出一般性的结论。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%AA%A4%E5%B0%8E%E6%80%A7%E9%AE%AE%E6%B4%BB%E5%80%8B%E6%A1%88",
+    "title": "误导性鲜活个案",
+    "description": "选取少数特殊个案，提供非常充分的细节，以诱导他人相信其普遍性。例如不断举例说某个贫穷家庭的可怜故事，借此让人相信整个国家都充斥这样的贫穷人口；或是某个病人不断诉说他奇迹痊愈的故事，让人以为同样的疾病可以以同样的方式奇迹痊愈"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%A3%93%E5%80%92%E6%80%A7%E4%BE%8B%E5%A4%96",
+    "title": "压倒性例外",
+    "description": "提出看似普遍性通则的主张，却附加声明排除极多例外。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E7%89%87%E9%9D%A2%E8%BE%AF%E8%AD%B7",
+    "title": "片面辩护",
+    "description": "主张某些情况是一般性原则的例外，却提出无关的理由。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E6%87%B6%E6%96%BC%E6%AD%B8%E7%B4%8D",
+    "title": "懒于归纳",
+    "description": "拒绝一切统计性、归纳性的结论，即使背后证据强而有力亦然。像例如说“就算有大量证据证明《圣经》里的耶稣基督有史实原型，我依旧相信耶稣基督是纯粹的虚构角色。”"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E4%BB%A5%E5%81%8F%E6%A6%82%E5%85%A8",
+    "title": "以偏概全",
+    "description": "泛指各种以部分概括整体的推理。如逆偶例谬误、合成谬误、轻率概括、单方论证等等。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E5%8F%AF%E8%83%BD",
+    "title": "诉诸可能或把合理当正确",
+    "description": "基于一件事有可能或相当可能是真的，就把它当作确定是真的，忽略其他可能性。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%B8%83%E4%BD%9B%E6%B0%8F%E8%AB%96%E8%AD%89",
+    "title": "布佛氏论证",
+    "description": "假定某观点是错的，由此出发解释为什么许多人会相信它，然后断定该观点是错误的。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E9%AC%BC%E7%A5%9F%E8%AC%AC%E8%AA%A4",
+    "title": "鬼祟谬误或诉诸阴谋",
+    "description": "主张事情的真相一定是某些人在背后操作。有些会宣称某事件缺乏详细证据，就是那些阴谋份子蓄意掩饰证据所致。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%96%AE%E6%96%B9%E8%AB%96%E8%AD%89",
+    "title": "单方论证、隐瞒证据、或片面真相",
+    "description": "只谈支持论点的理由，而不谈反对的理由。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E4%B8%8D%E5%AE%8C%E6%95%B4%E7%9A%84%E6%AF%94%E8%BC%83",
+    "title": "不完整的比较",
+    "description": "使用不清楚、不完整的证据支持论点。例如“甲公司的产品比乙公司的产品更好。”却不说明“好”是采用什么意义及标准。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E4%B8%8D%E4%B8%80%E8%87%B4%E7%9A%84%E6%AF%94%E8%BC%83",
+    "title": "不一致的比较",
+    "description": "对不同对象比较不同的事。例如“甲公司的产品比乙公司的更便宜，比丙公司的更多功能。”"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E4%B8%8D%E7%95%B6%E9%A1%9E%E6%AF%94",
+    "title": "不当类比、或弱类比",
+    "description": "使用不恰当的类比推论而得出不恰当的结论。不恰当的类比推论可以是不相干、不充分、或不当预设。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E6%B6%85%E6%A7%83%E8%AC%AC%E8%AA%A4",
+    "title": "涅槃谬误或完美主义谬误",
+    "description": "“不完美就不应该”，主张某个方案不完美、有缺陷，因而不应该做。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E6%AC%8A%E5%AE%9C%E4%B8%BB%E7%BE%A9%E8%AC%AC%E8%AA%A4",
+    "title": "权宜主义谬误",
+    "description": "“应该就别求完美”，主张某方案是为了重要的目的，因而无论有多少缺陷都应该做。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%9B%A0%E6%9E%9C%E8%AC%AC%E8%AA%A4",
+    "title": "因果谬误、虚假原因、乱赋因果",
+    "description": "泛指各种未有充分证据便轻率断定因果关系的不当推论。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%81%BD%E9%97%9C%E4%BF%82",
+    "title": "伪关系",
+    "description": "统计时两变数相关，实际上两者却无因果关系的现象，可能是干扰因子、潜藏变数等原因造成。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E7%9B%B8%E9%97%9C%E4%B8%8D%E8%98%8A%E6%B6%B5%E5%9B%A0%E6%9E%9C",
+    "title": "相关不蕴涵因果",
+    "description": "主张甲事与乙事一起发生、或统计上甲事与乙事有正相关，因此甲事一定是乙事的原因。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%BE%8C%E6%AD%A4%E8%AC%AC%E8%AA%A4",
+    "title": "后此谬误、后此故因此、巧合关系",
+    "description": "主张乙事在甲事之后发生、或统计上乙事总是在甲事增加之后增加，因此甲事一定是乙事的原因。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%BF%B4%E6%AD%B8%E8%AC%AC%E8%AA%A4",
+    "title": "回归谬误",
+    "description": "非常态的甲事发生以后，用乙措施处理后甲事扭转，便断定乙措施可扭转甲事。然而非常态的事发生后，本来就比较容易发生较接近常态的事。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%80%92%E6%9E%9C%E7%82%BA%E5%9B%A0",
+    "title": "倒果为因或因果倒置",
+    "description": "把原因误认为是结果，或把结果误认为是原因。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%96%AE%E5%9B%A0%E8%AC%AC%E8%AA%A4",
+    "title": "单因谬误或复合原因",
+    "description": "认定某事由一个原因造成，而未考虑可能是由许多原因共同导致。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E7%84%A1%E8%B6%B3%E8%BC%95%E9%87%8D",
+    "title": "无足轻重",
+    "description": "考虑有关但不重要的原因，却遗漏了更重要的原因。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A4%87%E5%90%88%E7%B5%90%E6%9E%9C",
+    "title": "复合结果",
+    "description": "将甲事与乙事建立因果关联，但实际上两者都是丙事造成的结果。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E6%BB%91%E5%9D%A1%E8%AC%AC%E8%AA%A4",
+    "title": "滑坡谬误",
+    "description": "使用连串的因果推论，却夸大了每个环节的因果强度，造成不合理的结论。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E4%B8%8D%E7%95%B6%E9%A0%90%E8%A8%AD%E7%9A%84%E8%AC%AC%E8%AA%A4",
+    "title": "不当预设的谬误",
+    "description": "泛指各种把语境中不应视为理所当然的前提视为理所当然，而产生的不恰当推理或言行。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E4%B9%9E%E9%A1%8C",
+    "title": "乞题或窃取论点",
+    "description": "论证的前提预设了结论或其他有争议、不应视为理所当然的事。乞题的界定可大致归为两大类，一为承续亚氏的界定，将乞题定义为“预设了结论为真”，这是一种语形上的界定，即循环论证；亦有人提出语用判准，将乞题定义为“预设了不应预设的前提”，以含括更多直觉上为不当预设的不恰当推理。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E4%B9%9E%E9%A1%8C%E9%A1%9E%E6%AF%94",
+    "title": "乞题类比",
+    "description": "使用类比推论，但类比的强度取决于原先的有争议论点。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%BB%A2%E8%A9%B1%E8%AC%AC%E8%AA%A4#%E5%A5%97%E5%A5%97%E9%82%8F%E8%BC%AF",
+    "title": "套套逻辑或同义反复",
+    "description": "论点被质疑时，假定原论点为真，用直接推论出来的命题（即同义反复的命题）回应质疑。这种回应不当预设了原论点为真，因而无说服力。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%BE%AA%E7%92%B0%E8%AB%96%E8%AD%89",
+    "title": "循环论证或循环推理",
+    "description": "狭义的意思是循环证成，即论点的真确性最终由自身支持的推理方式。广义的意思还包括循环因果、循环定义、循环解释等有循环支持结构的主张或推理。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%BE%AA%E7%92%B0%E8%AD%89%E6%88%90",
+    "title": "循环证成",
+    "description": "论点的真确性最终由自身支持。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%BE%AA%E7%92%B0%E5%9B%A0%E6%9E%9C",
+    "title": "循环因果",
+    "description": "某事的原因回归到某事本身解释。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%BE%AA%E7%92%B0%E5%AE%9A%E7%BE%A9",
+    "title": "循环定义",
+    "description": "定义某词语的词语最终需用某词语本身来定义。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%BE%AA%E7%92%B0%E8%A7%A3%E9%87%8B",
+    "title": "循环解释",
+    "description": "把一件事换句话说以解释自身。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E5%B0%8F%E4%BA%BA%E8%AB%96%E8%AD%89",
+    "title": "小小人论证",
+    "description": "一种无限回归式的解释，令人难以真的了解。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E6%97%A2%E5%AE%9A%E8%A7%80%E9%BB%9E%E7%94%A8%E8%A9%9E",
+    "title": "既定观点用词、情感性用语、或偏见性用语",
+    "description": "描述客观事实时，不采用一般的字词，而使用带有情感、评价意义的。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%81%87%E5%85%A9%E9%9B%A3%E6%8E%A8%E7%90%86",
+    "title": "假两难推理或非黑即白",
+    "description": "主张要嘛如何要嘛如何，却忽略了还有其他可能。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%81%87%E5%90%88%E5%8F%96",
+    "title": "假合取或捆包谬误",
+    "description": "假定在传统或文化上常常会分类在一起的事物必然会一起出现的谬误。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E5%90%A6%E8%AA%8D%E5%B0%8D%E7%AB%8B",
+    "title": "否认对立",
+    "description": "情境确实不允许其他可能的情况下，主张其他可能。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E6%89%93%E5%A3%93%E5%B0%8D%E7%AB%8B",
+    "title": "打压对立",
+    "description": "篡改对立概念的定义，使对立概念难以发生，藉以宣称某概念的普遍性。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E4%B8%BB%E7%BE%A9%E8%AC%AC%E8%AA%A4",
+    "title": "自然主义谬误",
+    "description": "自然主义谬误有数种诠释，其一是把“好”定义为某些自然属性，如较令人愉悦的、较令人渴望的、较进步的；其二是认为“自然的就是好的”，主张符合自然天性的都是合道德的、应该接受的；其三是指根据实然推论应然。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E9%81%93%E5%BE%B7%E4%B8%BB%E7%BE%A9%E8%AC%AC%E8%AA%A4",
+    "title": "道德主义谬误",
+    "description": "认为“好的就是自然的”，主张合道德的都是自然天性，不合道德的都不是自然天性。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%AD%89%E6%98%8E%E5%A4%AA%E5%A4%9A",
+    "title": "证明太多",
+    "description": "论证不只得出了论者想要的结论，还能得出更多显然不合理的结论。根据归谬法可知这种论证是失败的。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A4%87%E5%90%88%E5%95%8F%E9%A1%8C",
+    "title": "复合问题",
+    "description": "问题包括了多个子命题，却只允许是或否的简单答案（双管问题），但一般更常指别有意图的既定观点问题。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E9%9B%99%E7%AE%A1%E5%95%8F%E9%A1%8C",
+    "title": "双管问题",
+    "description": "问题包括了多个子命题，却只允许是或否的简单答案。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E6%97%A2%E5%AE%9A%E8%A7%80%E9%BB%9E%E5%95%8F%E9%A1%8C",
+    "title": "既定观点问题",
+    "description": "问题中预设了某些事，答者无论回答是或否都强烈暗示同意了这些事。是双管问题之中明显别有意图的例子。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%AA%98%E5%B0%8E%E6%80%A7%E6%8F%90%E5%95%8F",
+    "title": "诱导性提问或暗示性问题",
+    "description": "用不当的提问方式限缩、操弄回答者的回答。如直接性提问、重复性提问、强制性提问、确认性提问等等。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E6%96%B7%E8%A8%80",
+    "title": "诉诸断言",
+    "description": "不断声称自己的论点是对的，而不提供其他理据。像是例如不断声称“死刑无助治安”却没给出根据。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E5%B0%8D%E7%AB%8B",
+    "title": "诉诸对立",
+    "description": "不断声称对方论点的对立论点是错的，而不提供其他理据。例如对方说要往东，便说要往西。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E9%A0%91%E5%9B%BA",
+    "title": "诉诸顽固",
+    "description": "不断声称对方的论点不合理、不可信，而不提供其他理据。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E5%8F%8D%E8%A6%86",
+    "title": "诉诸反复",
+    "description": "声称自己的论点已充分讨论过很多次、目前都没被驳倒等等，而不提供其他理据。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E8%A8%B4%E8%AB%B8%E5%86%97%E8%B4%85",
+    "title": "诉诸冗赘",
+    "description": "蓄意使用艰涩难懂的数学算式或专业术语，令人难以反驳，即使其结论显然没道理或与论证无关。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/wiki/%E4%BA%82%E6%A7%8D%E6%89%93%E9%B3%A5%E8%AB%96%E8%AD%89",
+    "title": "乱枪打鸟论证",
+    "description": "提出大量论述使反对者无法一一反驳，尽管这些论述几乎都不合理或有谬误。"
+  },
+  {
+    "htmlUrl": "https://zh.wikipedia.org/w/index.php?title=%E6%B7%B7%E6%B7%86%E5%85%85%E8%A6%81%E6%9D%A1%E4%BB%B6&action=edit&redhtmlUrl=1",
+    "title": "混淆充要条件",
+    "description": "将“充分条件”或“必要条件”当作“充要条件”使用，从而提出极具迷惑性的谬论。[2]"
+  }
+]

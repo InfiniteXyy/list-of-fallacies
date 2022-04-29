@@ -1,29 +1,17 @@
+import FallacyData from '~~/assets/fallacies.demo.json';
+
 export type TFallacy = {
-  type: 'formal' | 'informal';
+  type?: 'formal' | 'informal';
   title: string;
   description: string;
-  examples: string[];
+  examples?: string[];
   htmlUrl?: string;
 };
 
 export const useFallacyData = (): TFallacy[] => {
   return [
     {
-      title: '肯定后件',
-      description: '命题逻辑的推理错误：“若P则Q”为真，且Q为真，推得P为真。',
-      htmlUrl: 'https://zh.wikipedia.org/wiki/%E8%82%AF%E5%AE%9A%E5%BE%8C%E4%BB%B6',
-      examples: [],
-      type: 'formal',
-    },
-    {
-      title: '否定前件',
-      description: '命题逻辑的推理错误：“若P则Q”为真，且P为假，推得Q为假。',
-      htmlUrl: 'https://zh.wikipedia.org/wiki/%E5%90%A6%E5%AE%9A%E5%89%8D%E4%BB%B6',
-      examples: [],
-      type: 'formal',
-    },
-    {
-      title: '稻草人论证',
+      title: '稻草人论证 Demo',
       description: '攻击对方并未提出的论点。',
       htmlUrl: 'https://zh.wikipedia.org/wiki/%E7%A8%BB%E8%8D%89%E4%BA%BA%E8%AB%96%E8%AD%89',
       examples: [
@@ -35,5 +23,6 @@ export const useFallacyData = (): TFallacy[] => {
       ],
       type: 'informal',
     },
+    ...FallacyData as TFallacy[],
   ];
 };
