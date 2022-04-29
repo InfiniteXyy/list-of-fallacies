@@ -9,8 +9,8 @@ const displayedUrl = computed(() => {
 </script>
 
 <template>
-  <div class="overflow-auto">
-    <div class="sticky top-0 mb-4 flex items-center justify-between bg-white">
+  <div class="overflow-auto px-4 md:p-0">
+    <div class="sticky top-0 mb-4 flex items-center justify-between bg-white pt-4">
       <h2 class="text-lg font-bold">{{ fallacy.title }}</h2>
       <div class="i-carbon-close cursor-pointer text-3xl md:hidden" @click="$emit('deactivateFallacy')" />
     </div>
