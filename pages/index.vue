@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { type TFallacy, getFallacyData } from '~~/composables/useFallacyData';
 import { useUrlSearchParams, useMediaQuery } from '@vueuse/core';
+import { Console } from 'console';
 
 const params = useUrlSearchParams<{ fallacy: string; search: string }>('hash-params');
 const isMobileView = useMediaQuery('(max-width: 768px)');
@@ -15,7 +16,6 @@ onMounted(() => {
 
 onMounted(() => {
   const fallacy = fallacies.find((f) => f.title === params.fallacy);
-  console.log(params.fallacy);
   if (fallacy) activeFallacy.value = fallacy;
   else if (!isMobileView.value) activeFallacy.value = fallacies[0];
 });
@@ -37,12 +37,12 @@ watch(
       <small class="text-gray-400">数据来源于 </small>
       <a class="underline" href="https://zh.wikipedia.org/wiki/谬误列表">Wikipedia</a>
     </div>
-    <UiInput class="mt-4" v-model="searchInput" placeholder="输入关键词搜索" />
+    <UiInput v-model="searchInput" class="mt-4" placeholder="输入关键词搜索" />
   </header>
 
   <main class="mt-2 grid h-full grid-cols-1 items-start gap-4 overflow-hidden md:grid-cols-2">
     <FallacyList :keyword="searchInput">
-      <template v-slot="fallacy: TFallacy">
+      <template #default="fallacy: TFallacy">
         <FallacyCard
           :isActive="activeFallacy?.title === fallacy.title"
           :fallacy="fallacy"
@@ -57,10 +57,10 @@ watch(
       class="transition-all duration-300 md:transition-none"
     >
       <FallacyDescription
+        v-if="!!activeFallacy"
         class="fixed bottom-0 left-0 right-0 h-1/2 border-t border-gray-300 bg-white shadow-xl md:static md:h-full md:border-0 md:shadow-none"
         :fallacy="activeFallacy"
         @deactivateFallacy="activeFallacy = null"
-        v-if="!!activeFallacy"
       />
     </Transition>
   </main>

@@ -21,7 +21,8 @@ const displayedUrl = computed(() => {
     <div v-else>
       <h4 class="mb-4 text-sm font-bold text-gray-500">示例</h4>
       <div
-        v-for="example in fallacy.examples || []"
+        v-for="(example, index) in fallacy.examples || []"
+        :key="index"
         class="mb-6 whitespace-pre-line rounded-sm border-l-2 border-yellow-400 bg-yellow-50 p-2 pl-4 text-sm leading-6"
       >
         {{ example }}
