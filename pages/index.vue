@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { Icon } from '@iconify/vue';
 import { type TFallacy, getFallacyData } from '~~/composables/useFallacyData';
 import { useUrlSearchParams, useMediaQuery } from '@vueuse/core';
 
@@ -65,7 +66,6 @@ const nextItem = computed(() => {
 
     <!-- Right Panel -->
     <Transition
-      :duration="300"
       leaveToClass="opacity-0 !-bottom-full"
       enterFromClass="opacity-0 !-bottom-full"
       class="transition-all duration-300 md:transition-none"
@@ -80,14 +80,14 @@ const nextItem = computed(() => {
           <div class="grid grid-cols-2 gap-2" :class="!prevItem || !nextItem ? '!grid-cols-1' : ''">
             <UiButton v-if="prevItem" @click="activeFallacy = prevItem">
               <template #prefix-icon>
-                <div class="i-carbon-arrow-left flex-shrink-0" />
+                <Icon icon="carbon:arrow-left" class="flex-shrink-0" />
               </template>
               {{ prevItem?.title }}
             </UiButton>
             <UiButton v-if="nextItem" class="justify-end" @click="activeFallacy = nextItem">
               {{ nextItem?.title }}
               <template #suffix-icon>
-                <div class="i-carbon-arrow-right flex-shrink-0" />
+                <Icon icon="carbon:arrow-right" class="flex-shrink-0" />
               </template>
             </UiButton>
           </div>
