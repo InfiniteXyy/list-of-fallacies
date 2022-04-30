@@ -4,8 +4,7 @@ import { type TFallacy, getFallacyData } from '~~/composables/useFallacyData';
 import { useUrlSearchParams, useMediaQuery } from '@vueuse/core';
 
 const params = useUrlSearchParams<{ fallacy: string; search: string }>('hash-params');
-const isMobileView = useMediaQuery('(max-width: 768px)');
-
+const isMobileView = useIsMobile();
 const fallacies = await getFallacyData();
 const searchInput = ref('');
 const activeFallacy = ref<TFallacy | null>();
@@ -65,17 +64,8 @@ const nextItem = computed(() => {
     </FallacyList>
 
     <!-- Right Panel -->
-    <Transition
-      leaveToClass="opacity-0 !-bottom-full"
-      enterFromClass="opacity-0 !-bottom-full"
-      class="transition-all duration-300 md:transition-none"
-    >
-      <FallacyDescription
-        v-if="!!activeFallacy"
-        class="fixed bottom-0 left-0 right-0 h-1/2 border-t border-gray-300 bg-white shadow-xl md:static md:h-full md:border-0 md:shadow-none"
-        :fallacy="activeFallacy"
-        @deactivateFallacy="activeFallacy = null"
-      >
+    <UiDrawer :title="activeFallacy?.title" :visible="!!activeFallacy" @cancel="activeFallacy = null">
+      <FallacyDescription v-if="!!activeFallacy" :fallacy="activeFallacy">
         <template #control-button>
           <div class="grid grid-cols-2 gap-2" :class="!prevItem || !nextItem ? '!grid-cols-1' : ''">
             <UiButton v-if="prevItem" @click="activeFallacy = prevItem">
@@ -93,6 +83,6 @@ const nextItem = computed(() => {
           </div>
         </template>
       </FallacyDescription>
-    </Transition>
+    </UiDrawer>
   </main>
 </template>
