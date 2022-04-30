@@ -34,7 +34,7 @@ const displayedUrl = computed(() => {
         :key="index"
         class="mb-6 whitespace-pre-line rounded-sm border-l-2 border-yellow-400 bg-yellow-50 p-2 pl-4 text-sm leading-6"
       >
-        {{ example }}
+        {{ example.trim() }}
       </div>
     </div>
     <a
